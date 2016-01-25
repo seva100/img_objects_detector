@@ -9,6 +9,7 @@ Training stage:
 * extracts features
 * trains SVM classifier
 * prints model in a file
+
 Testing stage:
 * loads images of the test set
 * prints results based on the prepared model
