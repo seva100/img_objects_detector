@@ -24,8 +24,7 @@ make all
 To pass through training and testing stage, go to *build/bin/* and run
 ```
 task2.exe -d ../../data/binary/train_labels.txt -m model.txt --train
-task2.exe -d ../../data/binary/test_labels.txt -m model.txt -l predictions.txt
---predict
+task2.exe -d ../../data/binary/test_labels.txt -m model.txt -l predictions.txt --predict
 ```
 
 To remove compiled executables, run in the command shell from the project's root directory
